@@ -4,11 +4,11 @@ import {
   LitElement,
   html,
   css
-} from "https://unpkg.com/lit-element@2.0.1/lit-element.js?module";
+} from "https://esm.run/lit-element@2.0.1/lit-element.js";
 
-import "https://unpkg.com/dayjs@1.11.7/dayjs.min.js?module";
-import "https://unpkg.com/dayjs@1.11.7/plugin/customParseFormat.js?module";
-import "https://unpkg.com/dayjs@1.11.7/plugin/relativeTime.js?module";
+import "https://esm.run/dayjs@1.11.7/dayjs.min.js";
+import "https://esm.run/dayjs@1.11.7/plugin/customParseFormat.js";
+import "https://esm.run/dayjs@1.11.7/plugin/relativeTime.js";
 
 class GalleryCard extends LitElement {
   static get properties() {
