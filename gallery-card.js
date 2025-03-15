@@ -1,14 +1,10 @@
 var GalleryCardVersion="3.5.1";
 
-import {
-  LitElement,
-  html,
-  css
-} from "https://esm.run/lit-element@2.0.1/lit-element.js";
+import { LitElement, html, css } from "./libs/lit-element.js";
 
-import "https://esm.run/dayjs@1.11.7/dayjs.min.js";
-import "https://esm.run/dayjs@1.11.7/plugin/customParseFormat.js";
-import "https://esm.run/dayjs@1.11.7/plugin/relativeTime.js";
+import dayjs from "./libs/dayjs.min.js";
+import customParseFormat from "./libs/customParseFormat.js";
+import relativeTime from "./libs/relativeTime.js";
 
 class GalleryCard extends LitElement {
   static get properties() {
